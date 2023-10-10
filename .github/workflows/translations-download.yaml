@@ -68,7 +68,7 @@ jobs:
           git add .
           git commit -m "🌍 Updating translations" -a
       - name: 🚀 Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         continue-on-error: true
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
